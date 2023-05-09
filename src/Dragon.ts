@@ -6,3 +6,12 @@ export default class Dragon extends Monster {
     super._lifePoints = 999;
   }
 } 
+
+// export default class Dragon extends Monster {
+//     private _lifePoints: number;
+  
+//     constructor() {
+//       super();
+//       this._lifePoints = 999;
+//     }
+//   } porque essa implementação não funciona
